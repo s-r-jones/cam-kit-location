@@ -55,9 +55,9 @@ class LocationProvider: NSObject, LocationDataProvider, CLLocationManagerDelegat
             print("no location")
             return
         }
-        var buckingHamPalace = CLLocation(latitude: 51.5017108, longitude: -0.141184)
+        var buckinghamPalace = CLLocation(latitude: 51.5017108, longitude: -0.141184)
         var testLocation = CLLocation(latitude: lastLocation.coordinate.latitude, longitude: lastLocation.coordinate.longitude)
-        location = buckingHamPalace
+        location = buckinghamPalace
         print("location: \(testLocation)")
     }
     
