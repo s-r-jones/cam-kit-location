@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Ramble/Pods-Ramble-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SCCameraKitReferenceUI/SCSDKCameraKitReferenceUI.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SCCameraKit/SCSDKCameraKit.framework/SCSDKCameraKit

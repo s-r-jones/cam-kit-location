@@ -6,17 +6,39 @@
 //
 
 import UIKit
+import SCSDKCameraKit
+import SCSDKCameraKitReferenceUI
 
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    
+    let apiKey = Bundle.main.object(forInfoDictionaryKey: "SCCameraKitAPIToken") as? String
+    let clientId = Bundle.main.object(forInfoDictionaryKey: "SCCameraKitClientID") as? String
+    
+    let GROUP_ID = "00a76839-77b9-48e3-9fe6-6dc8a8d82894"
+    
+    let cameraController = CustomCameraController()
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        
+        cameraController.groupIDs = [SCCameraKitLensRepositoryBundledGroup, GROUP_ID]
+        cameraController.configureDataProvider()
+        let cameraViewController = CameraViewController(cameraController: cameraController)
+        
+        
+        window.rootViewController = cameraViewController
+        window.windowScene = windowScene
+        self.window = window
+        window.makeKeyAndVisible()
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12B4CAAD415E352994F9835B /* Pods_Ramble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7B5E04B120AE423219C78E /* Pods_Ramble.framework */; };
+		CD02B2652BF8115D002EDC39 /* CustomCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02B2642BF8115D002EDC39 /* CustomCameraController.swift */; };
+		CD02B2692BF817E0002EDC39 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02B2682BF817E0002EDC39 /* LocationProvider.swift */; };
 		CD2C05E02BF7FC26003C4DF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2C05DF2BF7FC26003C4DF0 /* AppDelegate.swift */; };
 		CD2C05E22BF7FC26003C4DF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2C05E12BF7FC26003C4DF0 /* SceneDelegate.swift */; };
 		CD2C05E42BF7FC26003C4DF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2C05E32BF7FC26003C4DF0 /* ViewController.swift */; };
-		CD2C05E72BF7FC26003C4DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2C05E52BF7FC26003C4DF0 /* Main.storyboard */; };
 		CD2C05EA2BF7FC26003C4DF0 /* Ramble.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD2C05E82BF7FC26003C4DF0 /* Ramble.xcdatamodeld */; };
 		CD2C05EC2BF7FC27003C4DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2C05EB2BF7FC27003C4DF0 /* Assets.xcassets */; };
 		CD2C05EF2BF7FC27003C4DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2C05ED2BF7FC27003C4DF0 /* LaunchScreen.storyboard */; };
+		CDDFD2F52C0FD9C300240D49 /* MotionDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFD2F42C0FD9C300240D49 /* MotionDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B5CB8D2CA764BA33FD7EE5E /* Pods-Ramble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ramble.debug.xcconfig"; path = "Target Support Files/Pods-Ramble/Pods-Ramble.debug.xcconfig"; sourceTree = "<group>"; };
+		8D7B5E04B120AE423219C78E /* Pods_Ramble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ramble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA56DE3970B1874F692DE42D /* Pods-Ramble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ramble.release.xcconfig"; path = "Target Support Files/Pods-Ramble/Pods-Ramble.release.xcconfig"; sourceTree = "<group>"; };
+		CD02B2642BF8115D002EDC39 /* CustomCameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraController.swift; sourceTree = "<group>"; };
+		CD02B2682BF817E0002EDC39 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
 		CD2C05DC2BF7FC26003C4DF0 /* Ramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2C05DF2BF7FC26003C4DF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD2C05E12BF7FC26003C4DF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CD2C05E32BF7FC26003C4DF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CD2C05E62BF7FC26003C4DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD2C05E92BF7FC26003C4DF0 /* Ramble.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ramble.xcdatamodel; sourceTree = "<group>"; };
 		CD2C05EB2BF7FC27003C4DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2C05EE2BF7FC27003C4DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2C05F02BF7FC27003C4DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDFD2F42C0FD9C300240D49 /* MotionDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B4CAAD415E352994F9835B /* Pods_Ramble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B7CB479AE96FA550F507B32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D7B5E04B120AE423219C78E /* Pods_Ramble.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD2C05D32BF7FC26003C4DF0 = {
 			isa = PBXGroup;
 			children = (
 				CD2C05DE2BF7FC26003C4DF0 /* Ramble */,
 				CD2C05DD2BF7FC26003C4DF0 /* Products */,
+				FB6F24CCA8DBC339618ACED6 /* Pods */,
+				9B7CB479AE96FA550F507B32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +80,24 @@
 				CD2C05DF2BF7FC26003C4DF0 /* AppDelegate.swift */,
 				CD2C05E12BF7FC26003C4DF0 /* SceneDelegate.swift */,
 				CD2C05E32BF7FC26003C4DF0 /* ViewController.swift */,
-				CD2C05E52BF7FC26003C4DF0 /* Main.storyboard */,
 				CD2C05EB2BF7FC27003C4DF0 /* Assets.xcassets */,
 				CD2C05ED2BF7FC27003C4DF0 /* LaunchScreen.storyboard */,
 				CD2C05F02BF7FC27003C4DF0 /* Info.plist */,
 				CD2C05E82BF7FC26003C4DF0 /* Ramble.xcdatamodeld */,
+				CD02B2642BF8115D002EDC39 /* CustomCameraController.swift */,
+				CD02B2682BF817E0002EDC39 /* LocationProvider.swift */,
+				CDDFD2F42C0FD9C300240D49 /* MotionDataProvider.swift */,
 			);
 			path = Ramble;
+			sourceTree = "<group>";
+		};
+		FB6F24CCA8DBC339618ACED6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CB8D2CA764BA33FD7EE5E /* Pods-Ramble.debug.xcconfig */,
+				AA56DE3970B1874F692DE42D /* Pods-Ramble.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD2C05F32BF7FC27003C4DF0 /* Build configuration list for PBXNativeTarget "Ramble" */;
 			buildPhases = (
+				05892BD3324998E55766E3B1 /* [CP] Check Pods Manifest.lock */,
 				CD2C05D82BF7FC26003C4DF0 /* Sources */,
 				CD2C05D92BF7FC26003C4DF0 /* Frameworks */,
 				CD2C05DA2BF7FC26003C4DF0 /* Resources */,
+				CD459BC34C3E7B8B09650385 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,35 +162,71 @@
 			files = (
 				CD2C05EF2BF7FC27003C4DF0 /* LaunchScreen.storyboard in Resources */,
 				CD2C05EC2BF7FC27003C4DF0 /* Assets.xcassets in Resources */,
-				CD2C05E72BF7FC26003C4DF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05892BD3324998E55766E3B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ramble-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD459BC34C3E7B8B09650385 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ramble/Pods-Ramble-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ramble/Pods-Ramble-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ramble/Pods-Ramble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD2C05D82BF7FC26003C4DF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD02B2652BF8115D002EDC39 /* CustomCameraController.swift in Sources */,
 				CD2C05E42BF7FC26003C4DF0 /* ViewController.swift in Sources */,
 				CD2C05E02BF7FC26003C4DF0 /* AppDelegate.swift in Sources */,
 				CD2C05EA2BF7FC26003C4DF0 /* Ramble.xcdatamodeld in Sources */,
 				CD2C05E22BF7FC26003C4DF0 /* SceneDelegate.swift in Sources */,
+				CDDFD2F52C0FD9C300240D49 /* MotionDataProvider.swift in Sources */,
+				CD02B2692BF817E0002EDC39 /* LocationProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CD2C05E52BF7FC26003C4DF0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD2C05E62BF7FC26003C4DF0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CD2C05ED2BF7FC27003C4DF0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,12 +359,14 @@
 		};
 		CD2C05F42BF7FC27003C4DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5CB8D2CA764BA33FD7EE5E /* Pods-Ramble.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C42YWMHWSL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ramble/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,12 +389,14 @@
 		};
 		CD2C05F52BF7FC27003C4DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA56DE3970B1874F692DE42D /* Pods-Ramble.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C42YWMHWSL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ramble/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

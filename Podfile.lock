@@ -1,0 +1,21 @@
+PODS:
+  - SCCameraKit (1.30.0)
+  - SCCameraKitReferenceUI (1.30.0):
+    - SCCameraKit (~> 1.30.0)
+
+DEPENDENCIES:
+  - SCCameraKit
+  - SCCameraKitReferenceUI
+
+SPEC REPOS:
+  trunk:
+    - SCCameraKit
+    - SCCameraKitReferenceUI
+
+SPEC CHECKSUMS:
+  SCCameraKit: c10b78bb5fde51a61ea6139fb65dc7cbdde32280
+  SCCameraKitReferenceUI: bef1030ec7e4c9a2078e8c3f94f22efb5cc892c8
+
+PODFILE CHECKSUM: 2a6340180a49b227720047dc57f3f78907500887
+
+COCOAPODS: 1.12.1
